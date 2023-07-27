@@ -9,7 +9,7 @@ html {
 }
 
 body {
-  background: hsl(0, 0%, 90%);
+  background: hsl(0, 0%, 100%);
   font-family: 'Quicksand', sans-serif;
   margin: 0;
   padding: 0;
@@ -30,14 +30,14 @@ main {
 }
 
 .jumbotron {
-  background: url("../img/IMG_20210605_160201.jpg");
+  background: url("../img/kereta.jpg");
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center;
   background-size: 1400px;
   padding: 240px 0 240px 0;
   text-align: center;
-  color: #fff;
+  color: #f57118;
   margin-bottom: -20px;
 }
 
@@ -48,12 +48,12 @@ main {
 
 .subTron{
   font-size: 20px;
-  background-color: rgba(105, 105, 105, 0.32);
+  background-color: rgb(241, 208, 100);
   padding: 5px;
 }
 
 .card {
-  background-color: #fff;
+  background-color: #d4d3d3;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, .2);
   border-radius: 5px;
   padding: 20px;
@@ -92,7 +92,7 @@ footer {
 
 nav {
   font-size: 18px;
-  background: linear-gradient(90deg, rgba(209,209,209,1) 2%, rgba(255,255,255,1) 100%, rgba(0,212,255,1) 100%);
+  background: linear-gradient(90deg, rgb(252, 252, 252) 2%, rgb(255, 255, 255) 100%, rgba(0,212,255,1) 100%);
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, .2);
   border-radius: 5px;
   padding-bottom: 10px;
@@ -117,7 +117,7 @@ ul li {
 
 .logo {
   display: inline-block;
-  width: 65%;
+  width: 15%;
   margin-top: 15px;
   margin-left: 20px;
 }
@@ -128,7 +128,7 @@ ul li {
   top: 10px;
   right: 20px;
   cursor: pointer;
-  color: rgba(216, 216, 216, 0.84);
+  color: rgb(255, 255, 255);
   font-size: 24px;
 }
 
